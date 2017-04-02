@@ -12,6 +12,30 @@ CSGO Floats (despite the name) is an abstraction layer written upon [node-steam-
 Steam limits item resolves to one request per second. If you run one bot, only one item will be resolved per second. If you run four bots, four items will be resolved per second.
 **This module handles waiting between item resolves.**
 
+Example response from resolving an item:
+
+```js
+{
+  accountid: null,
+  itemid: '7854562798',
+  defindex: 9,
+  paintindex: 344,
+  rarity: 6,
+  quality: 4,
+  paintwear: 0.08326513320207596,
+  paintseed: 222,
+  killeaterscoretype: null,
+  killeatervalue: null,
+  customname: null,
+  stickers: [],
+  inventory: 15,
+  origin: 24,
+  questid: null,
+  dropreason: null,
+  musicindex: null
+}
+```
+
 # Contents
 - [Methods](#methods-)
 - [Events](#events-)
