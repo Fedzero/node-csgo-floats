@@ -31,11 +31,11 @@ master.on('connectedToGC', accountID => {
 
     master.inspect('steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198264168745A7854562798D16196779082076798575').then(item => {
         console.log('Non-Working Item 1 (succeeded)', 'float value:', item.paintwear);
-    }).catch(error => console.log('Non-Working Item 1 (failed)', error));
+    }).catch(error => console.log('Non-Working Item 3 (failed)', error));
 
     master.inspect('steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198264168745A2890581561D35265797510903000').then(item => {
         console.log('Non-Working Item 2 (succeeded)', 'float value:', item.paintwear);
-    }).catch(error => console.log('Non-Working Item 2 (failed)', error));
+    }).catch(error => console.log('Non-Working Item 4 (failed)', error));
 });
 
 master.on('disconnectedFromGC', response => {
