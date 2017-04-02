@@ -140,10 +140,10 @@ Emitted when Steam is disconnected from the GC.
 
 # Example [^](#contents)
 
-The example is located at https://github.com/Kondax/node-csgo-floats/blob/master/example.js
+The example is located at https://github.com/Kondax/node-csgo-floats/blob/master/example.js.
 It will request the floats for four items.
 
-**Two requests should succeed. Two should fail**
+**Two requests should succeed. Two should fail.**
 
 One request should resolve instantly. The other request should resolve a second after the first.
 One request should fail as it's a duplicate request (same item) as the first. The other request should fail as it's an invalid item.
