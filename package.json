@@ -1,0 +1,32 @@
+{
+  "name": "csgo-floats",
+  "version": "0.0.1",
+  "description": "This is an abstraction layer written upon steam-user for obtaining an item's attributes such as its paintwear, paintseed and paintindex",
+  "main": "index.js",
+  "scripts": {
+      "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kondax/node-csgo-floats.git"
+  },
+  "keywords": [
+    "steam",
+    "csgo",
+    "csgo",
+    "floats",
+    "paintwear",
+    "paintseed",
+    "paintindex"
+  ],
+  "author": "Kondax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kondax/node-csgo-floats/issues"
+  },
+  "homepage": "https://github.com/Kondax/node-csgo-floats#readme",
+  "dependencies": {
+    "events": "^1.1.1",
+    "globaloffensive": "^1.2.4"
+  }
+}
