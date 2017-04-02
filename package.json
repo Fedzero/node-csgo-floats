@@ -20,7 +20,7 @@
     "paintindex"
   ],
   "engines": {
-    "node"> ">=6.0.0"
+    "node": ">=6.0.0"
   },
   "author": "Kondax",
   "license": "MIT",
