@@ -1,5 +1,5 @@
 # CSGO Floats
-### This is not a bot. This is an abstraction layer written upon node-steam-user for obtaining an item's attributes such as its paintwear, paintseed and paintindex.
+### This is not a bot. This is an abstraction layer written upon node-steam-user for obtaining an item's attributes such as its paintwear, paintseed and paintindex. It allows you to request more than one item per second (given multiple bots are added).
 [![npm version](https://img.shields.io/npm/v/csgo-floats.svg)](https://npmjs.com/package/csgo-floats)
 [![npm downloads](https://img.shields.io/npm/dm/csgo-floats.svg)](https://npmjs.com/package/csgo-floats)
 [![dependencies](https://img.shields.io/david/Kondax/node-csgo-floats.svg)](https://david-dm.org/DoctorMcKay/node-csgo-floats)

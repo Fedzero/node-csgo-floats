@@ -1,7 +1,7 @@
 {
   "name": "csgo-floats",
   "version": "0.0.1",
-  "description": "This is an abstraction layer written upon steam-user for obtaining an item's attributes such as its paintwear, paintseed and paintindex",
+  "description": "This is an abstraction layer written upon steam-user for obtaining an item's attributes such as its paintwear, paintseed and paintindex. It allows you to request more than one item per second (given multiple bots are added).",
   "main": "index.js",
   "scripts": {
       "test": "node example.js"
